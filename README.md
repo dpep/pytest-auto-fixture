@@ -1,9 +1,9 @@
-MY_NEW_PACKAGE
+pytest-auto-fixture
 ======
 ...
 
 ### Install
-```pip install MY_NEW_PACKAGE```
+```pip install pytest-auto-fixture```
 
 
 ### Usage
@@ -12,5 +12,5 @@ MY_NEW_PACKAGE
 ```
 
 ----
-[![Coverage Status](https://coveralls.io/repos/github/dpep/MY_NEW_REPO/badge.svg?branch=main)](https://coveralls.io/github/dpep/MY_NEW_REPO?branch=main)
-[![installs](https://img.shields.io/pypi/dm/MY_NEW_PACKAGE?label=installs)](https://pypi.org/project/MY_NEW_PACKAGE)
+[![Coverage Status](https://coveralls.io/repos/github/dpep/pytest-auto-fixture/badge.svg?branch=main)](https://coveralls.io/github/dpep/pytest-auto-fixture?branch=main)
+[![installs](https://img.shields.io/pypi/dm/pytest-auto-fixture?label=installs)](https://pypi.org/project/pytest-auto-fixture)
