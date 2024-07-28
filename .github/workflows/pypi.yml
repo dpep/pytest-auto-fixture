@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/production-ready
+      url: https://pypi.org/p/pytest-auto-fixfure
     permissions:
       id-token: write  # mandatory for trusted publishing
 
