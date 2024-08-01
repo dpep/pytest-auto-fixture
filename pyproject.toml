@@ -3,7 +3,7 @@ requires = ["setuptools >= 61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pytest-auto-fixture"
+name = "pytest-autofixture"
 authors = [{name = "Daniel Pepper"}]
 dynamic = ["version"]
 description = "..."
@@ -19,7 +19,7 @@ requires-python = ">= 3"
 dependencies = ["pytest >= 8"]
 
 [project.entry-points.pytest11]
-auto_fixture = "pytest_auto_fixture"
+autofixture = "pytest_autofixture"
 
 [project.optional-dependencies]
 test = [
@@ -27,10 +27,10 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/dpep/pytest-auto-fixture"
+Homepage = "https://github.com/dpep/pytest-autofixture"
 
 [tool.setuptools]
-packages = ["pytest_auto_fixture"]
+packages = ["pytest_autofixture"]
 
 [tool.setuptools.dynamic]
-version = {attr = "pytest_auto_fixture.__version__"}
+version = {attr = "pytest_autofixture.__version__"}

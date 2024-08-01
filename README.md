@@ -1,9 +1,9 @@
-pytest-auto-fixture
+pytest-autofixture
 ======
 ...
 
 ### Install
-```pip install pytest-auto-fixture```
+```pip install pytest-autofixture```
 
 
 ### Usage
@@ -12,5 +12,5 @@ pytest-auto-fixture
 ```
 
 ----
-[![Coverage Status](https://coveralls.io/repos/github/dpep/pytest-auto-fixture/badge.svg?branch=main)](https://coveralls.io/github/dpep/pytest-auto-fixture?branch=main)
-[![installs](https://img.shields.io/pypi/dm/pytest-auto-fixture?label=installs)](https://pypi.org/project/pytest-auto-fixture)
+[![Coverage Status](https://coveralls.io/repos/github/dpep/pytest-autofixture/badge.svg?branch=main)](https://coveralls.io/github/dpep/pytest-autofixture?branch=main)
+[![installs](https://img.shields.io/pypi/dm/pytest-autofixture?label=installs)](https://pypi.org/project/pytest-autofixture)
