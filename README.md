@@ -1,6 +1,7 @@
 pytest-autofixture
 ======
-...
+Simplify pytest fixtures by making them automagically available.  Tests can reference fixtures without needing to reference them as function parameters.
+
 
 ### Install
 ```pip install pytest-autofixture```
@@ -8,7 +9,17 @@ pytest-autofixture
 
 ### Usage
 ```python
-...
+# conftest.py
+import pytest
+
+@pytest.fixture
+def one():
+    return 1
+
+
+# test_one.py
+def test_one():
+  assert one == 1
 ```
 
 ----

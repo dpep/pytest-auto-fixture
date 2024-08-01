@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pytest-autofixture"
 authors = [{name = "Daniel Pepper"}]
 dynamic = ["version"]
-description = "..."
+description = "simplify pytest fixtures"
 readme = "README.md"
 license = {file = "LICENSE.txt"}
 classifiers = [
