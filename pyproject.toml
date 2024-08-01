@@ -24,6 +24,7 @@ autofixture = "pytest_autofixture"
 [project.optional-dependencies]
 test = [
   "isort >= 5.13",
+  "setuptools >= 61",
 ]
 
 [project.urls]
